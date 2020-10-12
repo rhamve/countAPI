@@ -2,12 +2,15 @@ Download the code from git-hub URL
 
 Build docker 
 
-    ```docker build -t count:latest .```
-
+```
+docker build -t count:latest .
+```
+ 
 Run docker
 
-   docker run -it count:latest /bin/bash```
-    
+```
+docker run -it count:latest /bin/bash
+```
     
 Now start tomcat 
 
